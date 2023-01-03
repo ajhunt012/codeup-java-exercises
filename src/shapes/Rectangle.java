@@ -1,21 +1,21 @@
 package shapes;
 
-import java.util.Scanner;
-
 public class Rectangle {
-    protected int length;
-    protected int width;
+    protected double length;
+    protected double width;
 
-    public Rectangle(int length, int width) {
+    public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
     }
 
-    public int getArea() {
+    public double getArea() {
+        System.out.println("Area from Rectangle.");
         return length * width;
     }
 
-    public int getPerimeter() {
+    public double getPerimeter() {
+        System.out.println("Perimeter from Rectangle.");
         return 2 * length + 2 * width;
     }
 }
