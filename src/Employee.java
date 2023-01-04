@@ -4,6 +4,7 @@ class Employee extends Person {
         return this.name;
     }
 
+
 //    public int getAge() {
 //        // ERROR!
 //        return this.age;
