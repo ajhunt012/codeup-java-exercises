@@ -18,19 +18,8 @@ public class MoviesApplication {
         System.out.println("5 - view movies in the scifi category");
         System.out.print("Enter your choice: ");
 
-//        int choice = Input.getInt(scanner);
-//        while (choice != 0) {
-//            switch (choice) {
-//                case 1:
-//
-//                    viewMovies();
-//                    break;
-//                case 2:
-//                    viewMoviesByCategory("animated");
-//                    break;
-//                case 3:
-//
-//            }
-//        }
-    }
+        for (Movie movie : movies) {
+           System.out.println(movie.getName() + " - " + movie.getCategory());
+     }
+   }
 }

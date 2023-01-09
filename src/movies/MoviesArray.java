@@ -1,5 +1,7 @@
 package movies;
-
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 public class MoviesArray {
     public static Movie[] findAll() {
         return new Movie[]{
@@ -20,7 +22,7 @@ public class MoviesArray {
                 new Movie("Star Wars", "sci-fi"),
                 new Movie("All About Eve", "drama"),
                 new Movie("The African Queen", "drama"),
-                new Movie("Psycho" , "horror"),
+                new Movie("Psycho", "horror"),
                 new Movie("Chinatown", "drama"),
                 new Movie("One Flew Over The Cuckoo's Nest", "drama"),
                 new Movie("The Grapes Of Wrath", "drama"),
@@ -104,5 +106,16 @@ public class MoviesArray {
                 new Movie("Guess Who's Coming To Dinner", "drama"),
                 new Movie("Yankee Doodle Dandy", "musical")
         };
+//        List<Movie> movieList =new ArrayList<>();
+//        for (String[] movieData : movies) {
+//            String name = movieData[0];
+//            String category = movieData[1];
+//            Movie movie = new Movie(name, category);
+//            movieList.add(movie);
+//        }
+//
+//        Movie[] movieArray = movieList.toArray(new Movie[0]);
+//        return movieArray;
+//   }
     }
 }
