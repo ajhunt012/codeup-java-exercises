@@ -51,7 +51,6 @@ public class Input {
             }
         }
     }
-
     public static double getDouble() {
         return getDouble(Double.MIN_VALUE, Double.MAX_VALUE);
     }
