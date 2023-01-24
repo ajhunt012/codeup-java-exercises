@@ -1,17 +1,17 @@
-public class Manager extends Employee{
-    public String work() {
-        return "Managing employees";
-    }
-
-    public static void doWork(Employee e) {
-        System.out.println(e.work());
-    }
-
-    public static void main(String[] args) {
-        Employee one = new Employee();
-        Employee two = new Manager();
-
-        doWork(one); // "Filling out TPS reports"
-        doWork(two); // "Managing employees"
-    }
-}
+//public class Manager extends employee {
+//    public String work() {
+//        return "Managing employees";
+//    }
+//
+//    public static void doWork(employee e) {
+//        System.out.println(e.work());
+//    }
+//
+//    public static void main(String[] args) {
+//        employee one = new employee();
+//        employee two = new Manager();
+//
+//        doWork(one); // "Filling out TPS reports"
+//        doWork(two); // "Managing employees"
+//    }
+//}

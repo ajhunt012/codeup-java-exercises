@@ -1,4 +1,4 @@
-class SuperHero extends Person {
+class SuperHero extends person {
     private String alterEgo;
     public SuperHero(String name, String alterEgo) {
         super(name);
